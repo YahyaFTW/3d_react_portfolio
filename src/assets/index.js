@@ -27,10 +27,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+// import carrent from "./carrent.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
+import cineverse from "./cineverse.png";
+import portfolio3D from "./portfolio3D.png";
+import candidTv from "./candidTv.png";
 export {
   logo,
   backend,
@@ -58,7 +60,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  portfolio3D,
+  cineverse,
+  candidTv,
 };

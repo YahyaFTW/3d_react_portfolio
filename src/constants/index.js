@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  portfolio3D,
+  cineverse,
+  candidTv,
   threejs,
 } from "../assets";
 
@@ -214,58 +214,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Cinema Verse",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search movies and series and see the list of movies in very good user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "api",
         color: "green-text-gradient",
       },
       {
@@ -273,9 +231,96 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cineverse,
+    source_code_link: "https://github.com/YahyaFTW/cinema-verse-app",
+    live_page_link: "https://cinema-verse-tau.vercel.app/",
   },
+  {
+    name: "3D Portfolio",
+    description:
+      "Web-based 3D portfolio application to show my skills to the recruiters and to public, all of the skill can be seen in this web-app .",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "emailjs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: portfolio3D,
+    source_code_link: "https://github.com/YahyaFTW/3d_react_portfolio",
+    live_page_link: "#",
+  },
+  {
+    name: "Candid TV",
+    description:
+      "React-based front platform with dark and light theme to upload and watch videos, all pages are responsive and it is frontend only.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chakraUI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: candidTv,
+    source_code_link: "https://github.com/YahyaFTW/react_video_app",
+    live_page_link: "https://react-chakra-video-app-alpha.vercel.app/",
+  },
+  // {
+  //   name: "Job IT",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
