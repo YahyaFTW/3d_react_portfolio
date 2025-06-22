@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Accenture",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
+    date: "August 2024 - Present",
     points: [
       "Worked on backend development using Java, Spring, and Spring Boot.",
       "Created REST APIs and handled CRUD operations using JDBC.",
