@@ -130,17 +130,16 @@ const experiences = [
   },
 
   {
-    title: "Summer Training in AI",
-    company_name: "Infosys",
+    title: "Associate Software Engineer",
+    company_name: "Accenture",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "July 2023 - Present",
     points: [
-      "Learning different fields of AI throughout the complete period.",
-      "Learning by implementing and studying real life examples.",
-      // "Pra.",
-      "Participating in test and quizzes after completing a section of courses.",
-      "Awarded with 7 certificates for completing all the courses .",
+      "Worked on backend development using Java, Spring, and Spring Boot.",
+      "Created REST APIs and handled CRUD operations using JDBC.",
+      "Participated in unit testing with JUnit and improved code quality using SonarQube.",
+      
     ],
   },
 
